@@ -1,19 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class Snakemovement : MonoBehaviour
 {
     [SerializeField] int speed=3;
-    Snakemovement snakemovement;
     int score;
     int highscore;
-    void Start()
-    {
-        snakemovement = GetComponent<Snakemovement>();
-    }
 
     void Update()
     {
